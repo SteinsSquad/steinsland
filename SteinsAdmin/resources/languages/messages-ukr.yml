@@ -1,0 +1,73 @@
+ban-description: "Заблокировать игрока"
+ban-failed: "&cИгрок уже забанен."
+ban-success: "Игрок &a{player}&f забанил &d{target}&f, с причиной: &c{reason}&f."
+ban-you-banned: "&cВас забанил &a{admin}&c, с причиной &d{reason}&c. До разбана: &f{time}&c.\n&bВы можете купить разбан на нашем сайте - &bSteinsLand.ru"
+ban-cooldown: "&cПодождите еще &f{time}&c, прежде чем банить кого-либо."
+
+pardon-description: "Разблокировать игрока"
+pardon-failed: "&cВы не можете разбанить этого игрока, так как он не забанен."
+pardon-success: "Игрок &a{player}&f разбанли &d{target}&f."
+pardon-cooldown: "&cПодождите еще &f{time}&c, прежде чем разбанить кого-либо."
+
+kick-description: "Выгнать игрока с сервера"
+kick-success: "Игрок &a{player}&f кикнул &d{target}&f, с причиной: &c{reason}&f."
+kick-you-kicked: "&cВас кикнул &d{player}&c, причина: &f{reason}&c."
+kick-cooldown: "&cПодождите ещё&f {time}&c, прежде чем кикать кого-либо."
+
+kill-description: "Убить игрока"
+kill-success: "Вы успешно убили игрока &a{player}&f."
+kill-yourself-success: "Вы успешно убили себя."
+kill-you-slain: "Вы были мгновенно убиты &a{player}&f."
+
+nick-description: "Сменить ник"
+nick-success-set: "Вы успешно сменили ник на \"{nick}&f\"."
+nick-success-remove: "Вы успешно вернули свой ник."
+
+report-description: "Обратиться к администрации"
+report-success: "Вы успешно создали тикет."
+report-new-ticket: "&a{player}&f создал новый тикет: &c{report}&f."
+report-list-header: "Список тикетов - &6{count}&f:"
+report-list-line: "&7 * &a{player}&f: &c{report}&f."
+report-reply-success: "Игрок &a{player}&f ответил на тикет &d{target}&f: &c{reply}&f."
+report-reply: "&a{player}&f ответил на Ваш тикет: &c{reply}&f."
+
+mute-description: "Заткнуть игрока"
+mute-success: "Игрок &a{player}&f заткнул игрока &d{target}&f: &c{reason}&f."
+mute-failed: "&cИгрок уже заткнут."
+mute-chat-error: "Вы не можете писать в чат, так как вас заткнули."
+
+unmute-description: "Разрешить игроку говорить"
+unmute-success: "Игрок &a{player}&f разрешил говорить игроку &d{target}&f."
+unmute-failed: "&cИгрок не заткнут."
+
+jail-description: "Посадить игрока в тюрьму"
+jail-success: "Игрок &a{player}&f посадил игрока &d{target}&f в тюрьму: &c{reason}&f."
+jail-failed: "&cИгрок и так сидит в тюрьме."
+jail-use-error: "&cВы не можете сделать это, так как вы находитесь в тюрьме."
+
+unjail-description: "Выпустить игрока из тюрьмы"
+unjail-success: "Игрок &a{player}&f выпустил игрока &d{target}&f из тюрьмы."
+unjail-failed: "&cИгрок не сидит в тюрьме."
+
+jailbreak-description: "Попытаться сбежать из тюрьмы"
+jailbreak-success: "Вы успешно сбежали из тюрьмы."
+jailbreak-failed: "Вы не смогли сбежать из тюрьмы."
+jailbreak-error: "&cВы не сидите в тюрьме."
+
+jailquit-description: "Выйти из тюрьмы"
+jailquit-success: "Вы успешно освободились из тюрьмы."
+jailquit-failed: "&cВы не сидите в тюрьме."
+
+vanish-description: "Включить или отключить невидимость"
+vanish-success-on: "Вы успешно включили невидимость."
+vanish-success-off: "Вы успешно отключили невидимость."
+
+freeze-description: "Заморозить игрока"
+freeze-success-on: "Вы успешно заморозили игрока &a{player}&f."
+freeze-success-off: "Вы успешно разморозили игрока &a{player}&f."
+freeze-you-frozen: "Вы были заморожены игроком &a{player}&f."
+freeze-you-unfrozen: "Вы были разморожены игроком &a{player}&f."
+
+warn-description: "Выдать предупреждение игроку"
+warn-success: "Игрок &a{player}&f выдал &6{count} предупреждение&f игроку &d{target}&f: &c{reason}&f."
+warn-kicked: "Вы получили &63 предупреждения&f и поэтому были кикнуты."

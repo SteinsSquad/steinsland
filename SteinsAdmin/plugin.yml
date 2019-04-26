@@ -1,0 +1,64 @@
+name: "SteinsAdmin"
+author: "themestl"
+version: "1.0"
+
+main: steinssquad\admin\SteinsAdmin
+api: ["3.6.5", "4.0.0"]
+
+permissions:
+  steinscore.admin:
+    default: op
+    description: "Allow to use all admin commands"
+    children:
+      steinscore.admin.ban:
+        default: op
+        description: "Allow to use ban without any cooldown."
+        children:
+          steinscore.admin.ban.use:
+            default: op
+            description: "Allow to use /ban, /pardon command"
+      steinscore.admin.kill:
+        default: op
+        description: "Allow to use /kill <player> command"
+        childern:
+          steinscore.admin.kill.use:
+            default: op
+            description: "Allow to use /kill command"
+      steinscore.admin.kick:
+        default: op
+        description: "Allow to kick without any cooldown"
+        children:
+          steinscore.admin.kick.use:
+            default: op
+            description: "Allow to use /kick command"
+      steinscore.admin.nick:
+        default: op
+        description: "Allow to use /nick command"
+      steinscore.admin.warn:
+        default: op
+        description: "Allow to use /warn command"
+      steinscore.admin.report:
+        default: op
+        description: "Allow to see all reports and reply on they"
+        children:
+          steinscore.admin.report.use:
+            default: true
+            description: "Allow to use /report command"
+      steinscore.admin.mute:
+        default: op
+        description: "Allow to use /mute and /unmute command"
+      steinscore.admin.jail:
+        default: op
+        description: "Allow to use /jail and /unjail command"
+      steinscore.admin.jailbreak:
+        default: true
+        description: "Allow to use /jailbreak command"
+      steinscore.admin.jailquit:
+        default: true
+        description: "Allow to use /jailquit command"
+      steinscore.admin.vanish:
+        default: op
+        description: "Allow to use /vanish command"
+      steinscore.admin.freeze:
+        default: op
+        description: "Allow to use /freeze command"

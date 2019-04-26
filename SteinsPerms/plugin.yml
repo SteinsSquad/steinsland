@@ -1,0 +1,22 @@
+name: "SteinsPerms"
+author: "themestl"
+version: "1.0"
+
+main: steinssquad\perms\SteinsPerms
+api: ["3.6.5", "4.0.0"]
+
+permissions:
+  steinscore.permission:
+    default: op
+    description: "Allow to manage permission"
+    children:
+      steinscore.permission.setgroup:
+        default: op
+        description: "Allow to use /setgroup command"
+      steinscore.permission.prefix:
+        default: op
+        description: "Allow to use /prefix set command"
+        children:
+          steinscore.permission.prefix.use:
+            default: true
+            description: "Allow to use /prefix <group> command"

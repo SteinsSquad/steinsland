@@ -1,0 +1,15 @@
+name: "SteinsClan"
+author: "themestl"
+version: "1.0-stable"
+
+main: steinssquad\clan\SteinsClan
+api: ["3.6.5", "4.0.0"]
+
+permissions:
+  steinscore.clan:
+    default: op
+    description: "Allow to manage in all clans (soon)"
+    children:
+      steinscore.clan.create:
+        default: true
+        description: "Allow to create clan"

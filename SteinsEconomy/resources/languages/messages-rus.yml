@@ -1,0 +1,35 @@
+balance-description: "Узнать свой баланс."
+balance-success: "У Вас на счету &6{money} золотых&f."
+balance-player-success: "У &a{player}&f на счету &6{money} золотых&f."
+
+setmoney-description: "Установить количество золотых для игрока"
+setmoney-success: "Вы успешно изменили баланс игроку &a{player}&f на &6{money} золотых&f."
+setmoney-failed: "&cВы не можете изменить баланс этому игроку."
+
+pay-description: "Передать золотые другому игроку"
+pay-success: "Вы успешно передали &6{money} золотых&f игроку &a{player}&f."
+pay-got: "Вы получили &6{money} золотых&f от игрока &a{player}&f."
+
+obh-description: "Заказать убийство игрока"
+obh-success: "&a{player}&f заказал убийство игрока &d{target}&f. Цена за его голову &6{amount} золотых&f."
+
+job-description: "Устроиться на работу"
+job-success: "Вы успешно устроились на работу &a{job}&f."
+job-failed: "&cВы и так работаете на этой работе."
+
+bank-description: "Управление балансом банка"
+bank-balance-failed: "У Вас нет счета в банке."
+bank-balance-success: "У Вас на счету в банке &6{amount} золотых&f."
+bank-withdraw-success: "Вы успешно взяли с банка &6{amount} золотых&f."
+bank-deposit-success: "Вы успешно положили &6{amount} золотых&f на свой счет в банке."
+
+lottery-description: "Участвовать в лотерее"
+lottery-failed: "&cК сожалению, удача не на вашей стороне."
+lottery-triple: "Вы собрали всю комбинацию и получил &a{money} золотых&f."
+lottery-jackpot: "Вы выйграли джекпот - &a{money} золотых&f."
+lottery-success: "Вы выйграли &a{money} золотых&f."
+
+shop-sell-failed: "&cУ Вас нет предмета на продажу."
+shop-sell-success: "Вы успешно продали &c{item}&f [&6{count}&f шт.] за &6{money} золотых&f."
+shop-buy-failed: "&cУ Вас нет свободного места в инвентаре."
+shop-buy-success: "Вы успешно купили &c{item}&f [&6{count}&f шт.] за &6{money} золотых&f."

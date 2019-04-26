@@ -1,0 +1,100 @@
+name: "SteinsTeleport"
+author: "themestl"
+version: "1.0"
+
+main: steinssquad\teleport\SteinsTeleport
+api: ["3.6.5", "4.0.0"]
+
+permissions:
+  steinscore.teleport:
+    default: op
+    description: "Allow to use all server fast traveling things"
+    children:
+      steinscore.teleport.teleport:
+        default: true
+        description: "Allow to use /tpa and /tpc command."
+      steinscore.teleport.cooldown:
+        default: op
+        description: "Cooldown for all teleports"
+        children:
+          steinscore.teleport.cooldown.5:
+            default: true
+            description: "5 seconds"
+          steinscore.teleport.cooldown.3:
+            default: op
+            description: "3 seconds"
+          steinscore.teleport.cooldown.1:
+            default: op
+            description: "1 second"
+      steinscore.teleport.home:
+        default: op
+        description: "Allow to manage another player homes."
+        children:
+          steinscore.teleport.home.use:
+            default: true
+            description: "Allow to use /homes, /sethome, /delhome and /home commands"
+      steinscore.teleport.homes:
+        default: op
+        description: "Allow to have 10 homes"
+        children:
+          steinscore.teleport.homes.1:
+            default: true
+            description: "Allow to have 1 home"
+          steinscore.teleport.homes.3:
+            default: op
+            description: "Allow to have 3 homes"
+          steinscore.teleport.homes.5:
+            default: op
+            description: "Allow to have 5 homes"
+      steinscore.teleport.back:
+        default: op
+        description: "Allow to use /back <player> command"
+        children:
+          steinscore.teleport.back.use:
+            default: op
+            description: "Allow to use /back command"
+      steinscore.teleport.wild:
+        default: op
+        description: "Allow to use /wild command"
+      steinscore.teleport.randomtp:
+        default: op
+        description: "Allow to use /randomtp command"
+      steinscore.teleport.spawn:
+        default: true
+        description: "Allow to use /spawn command"
+      steinscore.teleport.top:
+        default: op
+        description: "Allow to use /top command"
+      steinscore.teleport.tp:
+        default: op
+        description: "Allow to use /tp <player> [..pos] command"
+        children:
+          steinscore.teleport.tp.use:
+            default: op
+            description: "Allow to use /tp command"
+      steinscore.teleport.warp:
+        default: true
+        description: "Allow to use /warp or /<warp> command"
+      steinscore.teleport.setwarp:
+        default: op
+        description: "Allow to use /setwarp, /delwarp command with a shortcuts"
+        children:
+          steinscore.teleport.setwarp.use:
+            default: op
+            description: "Allow to use /setwarp, /delwarp command"
+      steinscore.teleport.warps:
+        default: op
+        description: "Allow to have unlimited warps count"
+        children:
+          steinscore.teleport.warps.1:
+            default: op
+            description: "Allow to have 1 warp"
+          steinscore.teleport.warps.3:
+            default: op
+            description: "Allow to have 3 warps"
+          steinscore.teleport.warps.5:
+            default: op
+            description: "Allow to have 5 warps"
+      steinscore.teleport.tpahere:
+        default: op
+        description: "Allow to use /tpahere command"

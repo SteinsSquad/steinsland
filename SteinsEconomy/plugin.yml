@@ -1,0 +1,38 @@
+name: "SteinsEconomy"
+author: "themestl"
+version: "1.0"
+
+main: steinssquad\economy\SteinsEconomy
+api: ["3.6.5", "4.0.0"]
+
+permissions:
+  steinscore.economy:
+    default: op
+    description: "Allow to manage economy"
+    children:
+      steinscore.economy.balance:
+        default: op
+        description: "Allow to use /balance <player> command"
+        children:
+          steinscore.economy.balance.use:
+            default: true
+            description: "Allow to use /balance command"
+      steinscore.economy.pay:
+        default: true
+        description: "Allow to use /pay command"
+      steinscore.economy.setmoney:
+        default: op
+        description: "Allow to use /setmoney <player> <amount> command"
+        children:
+          steinscore.economy.setmoney.use:
+            default: op
+            description: "Allow to use /setmoney command"
+      steinscore.economy.obh:
+        default: true
+        description: "Allow to use /obh command"
+      steinscore.economy.job:
+        default: true
+        description: "Allow to use /job command"
+      steiscore.economy.bank:
+        default: true
+        description: "Allow to use /bank command"

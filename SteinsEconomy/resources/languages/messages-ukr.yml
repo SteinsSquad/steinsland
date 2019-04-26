@@ -1,0 +1,35 @@
+balance-description: "Дізнатись свій баланс."
+balance-success: "У вас на рахунку &6{money} гривень&f."
+balance-player-success: "У &a{player}&f на рахунку &6{money} гривень&f."
+
+setmoney-description: "Встановити кількість гривень для гравця"
+setmoney-success: "Ви успішно измінили баланс гравцю &a{player}&f на &6{money} гривень&f."
+setmoney-failed: "&cВи не можете змінити баланс цього гравця."
+
+pay-description: "Передати гривні другому гравцю"
+pay-success: "Ви вдало передали &6{money} гривень&f гравцю &a{player}&f."
+pay-got: "Ви отримали&6 {money} гривень&f від гравця&a {player}&f."
+#TODO
+obh-description: "Заказать убийство игрока"
+obh-success: "&a{player}&f заказал убийство игрока &d{target}&f. Цена за его голову &6{amount} гривень&f."
+
+job-description: "Устроиться на работу"
+job-success: "Вы успешно устроились на работу &a{job}&f."
+job-failed: "&cВы и так работаете на этой работе."
+
+bank-description: "Управление балансом банка"
+bank-balance-failed: "У Вас нет счета в банке."
+bank-balance-success: "У Вас на счету в банке &6{amount} гривень&f."
+bank-withdraw-success: "Вы успешно взяли с банка &6{amount} гривень&f."
+bank-deposit-success: "Вы успешно положили &6{amount} гривень&f на свой счет в банке."
+
+lottery-description: "Участвовать в лотерее"
+lottery-failed: "&cК сожалению, удача не на вашей стороне."
+lottery-triple: "Вы собрали всю комбинацию и получил &a{money} гривень&f."
+lottery-jackpot: "Вы выйграли джекпот - &a{money} гривень&f."
+lottery-success: "Вы выйграли &a{money} гривень&f."
+
+shop-sell-failed: "&cУ Вас нет предмета на продажу."
+shop-sell-success: "Вы успешно продали &c{item}&f [&6{count}&f шт.] за &6{money} гривень&f."
+shop-buy-failed: "&cУ Вас нет свободного места в инвентаре."
+shop-buy-success: "Вы успешно купили &c{item}&f [&6{count}&f шт.] за &6{money} гривень&f."

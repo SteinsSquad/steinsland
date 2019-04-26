@@ -1,0 +1,51 @@
+name: "SteinsRegion"
+author: "themestl"
+version: "1.0"
+
+main: steinssquad\region\SteinsRegion
+api: ["3.6.5", "4.0.0"]
+
+permissions:
+  steinscore.region:
+    description: "Allow to manage all regions"
+    default: op
+    children:
+      steinscore.region.claim:
+        default: true
+        description: "Allow to use /claim, /unclaim, /flag, /addmember, /delmember, /addadmin, /leave, /pos and commands"
+      steinscore.region.flag-priority:
+        default: true
+        description: "Allow to use priority flag"
+      steinscore.region.flag-build:
+        default: true
+        description: "Allow to use build flag"
+      steinscore.region.flag-price:
+        default: true
+        description: "Allow to use price flag"
+      steinscore.region.flag-use:
+        default: true
+        description: "Allow to use use flag"
+      steinscore.region.flag-pvp:
+        default: op
+        description: "Allow to use pvp flag"
+      steinscore.region.flag-unfallable:
+        default: op
+        description: "Allow to use unfallable flag"
+      steinscore.region.flag-unburned:
+        default: op
+        description: "Allow to use unburned flag"
+      steinscore.region.flag-breathe:
+        default: op
+        description: "Allow to use breathe flag"
+      steinscore.region.flag-chat:
+        default: op
+        description: "Allow to use chat flag"
+      steinscore.region.flag-starve:
+        default: op
+        description: "Allow to use starve flag"
+      steinscore.region.flag-keep-inventory:
+        default: op
+        description: "Allow to use keep-inventory flag"
+      steinscore.region.flag-greeting:
+        default: op
+        description: "Allow to use greeting flag"

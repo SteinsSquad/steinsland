@@ -1,0 +1,12 @@
+setgroup-description: "Изменить группу игроку"
+setgroup-group-error: "&cТакой группы не существует"
+setgroup-priority-error: "&cВы не можете изменить группу &a{player}&c на более низкую."
+setgroup-success: "Вы успешно изменили группу &a{player}&f на &6{group}&f."
+setgroup-success-temporary: "Вы успешно изменили группу игроку &a{player}&f на &6{group}&f на &7{time}&f."
+setgroup-changed: "Ваша группа была изменена на &6{group}&f."
+setgroup-changed-temporary: "Ваша группа была временно изменена на &6{group}&f на &7{time}&f."
+setgroup-failed: "&cВы не можете изменить группу этому игроку."
+
+prefix-description: "Изменить префикс"
+prefix-success-set: "Вы успешно поставили себе префикс \"{prefix}&f\"."
+prefix-success-remove: "Вы успешно вернули свой префикс."

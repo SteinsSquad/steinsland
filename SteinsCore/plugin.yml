@@ -1,0 +1,8 @@
+name: "SteinsCore"
+author: "themestl"
+version: "1.0-wip"
+
+main: steinssquad\steinscore\Loader
+api: ["3.6.5", "4.0.0"]
+
+loadbefore: ["SteinsAdmin", "SteinsAuth", "SteinsClan", "SteinsEconomy", "SteinsFeature", "SteinsPerms", "SteinsRegion", "SteinsTeleport"]

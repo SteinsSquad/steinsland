@@ -1,0 +1,264 @@
+name: "SteinsFeature"
+author: "themestl"
+version: "1.0"
+
+main: steinssquad\feature\SteinsFeature
+api: ["3.6.5", "4.0.0"]
+
+permissions:
+  steinscore.feature:
+    default: op
+    description: "Allow to use all features!"
+    children:
+      steinscore.feature.commands:
+        default: true
+        description: "Allow to use /commands command"
+      steinscore.feature.attack:
+        default: op
+        description: "Allow to attack players from creative or fly"
+      steinscore.feature.scream:
+        default: op
+        description: "Allow to use /scream command"
+      steinscore.feature.expfly:
+        default: true
+        description: "Allow to use /expfly command"
+      steinscore.feature.holograms:
+        default: op
+        description: "Allow to create 10 holograms"
+        children:
+          steinscore.feature.holograms.use:
+            default: op
+            description: "Allow to use /addholo, /delholo, /holos commands"
+          steinscore.feature.holograms.1:
+            default: op
+            description: "Allow to have 1 hologram"
+          steinscore.feature.holograms.3:
+            default: op
+            description: "Allow to have 3 holograms"
+          steinscore.feature.holograms.5:
+            default: op
+            description: "Allow to have 5 holograms"
+      steinscore.feature.border:
+        default: op
+        description: "Allow to move thorough the border"
+      steinscore.feature.notify:
+        default: op
+        description: "Notify players when player join/left"
+      steinscore.feature.feed:
+        default: op
+        description: "Allow to use /feed <player> command"
+        children:
+          steinscore.feature.feed.use:
+            default: op
+            description: "Allow to use /feed command without cooldown"
+            children:
+              steinscore.feature.feed.use.cd:
+                default: op
+                description: "Allow to use /feed command"
+      steinscore.feature.heal:
+        default: op
+        description: "Allow to use /heal <player> command"
+        children:
+          steinscore.feature.heal.use:
+            default: op
+            description: "Allow to use /heal command without cooldown"
+            children:
+              steinscore.feature.heal.use.cd:
+                default: op
+                description: "Allow to use /heal command"
+      steinscore.feature.kit:
+        default: op
+        description: "Allow to use /kit command without cooldown"
+        children:
+          steinscore.feature.kit.use:
+            default: true
+            description: "Allow to use /kit command"
+      steinscore.feature.kit-start:
+        default: true
+        description: "Allow to use /kit start command"
+      steinscore.feature.kit-fly:
+        default: op
+        description: "Allow to use /kit fly command"
+      steinscore.feature.kit-vip:
+        default: op
+        description: "Allow to use /kit vip command"
+      steinscore.feature.kit-supra:
+        default: op
+        description: "Allow to use /kit supra command"
+      steinscore.feature.milk:
+        default: op
+        description: "Allow to use /milk command"
+      steinscore.feature.give:
+        default: op
+        description: "Allow to use /give command"
+      steinscore.feature.marry:
+        default: true
+        description: "Allow to use /marry command"
+      #TODO: lookat
+      steinscore.feature.sit:
+        default: op
+        description: "Allow to use /sit command"
+      steinscore.feature.repair:
+        default: op
+        description: "Allow to use /repair command"
+      steinscore.feature.cook:
+        default: op
+        description: "Allow to use /cook command"
+      steinscore.feature.extinguish:
+        default: op
+        description: "Allow to use /extinguish command"
+      stenscore.feature.dupe:
+        default: op
+        description: "Allow to use /dupe command"
+        children:
+          steinscore.feature.dupe.cooldown:
+            default: op
+            description: "Allow to use /dupe command only every 30 minutes and only a half of stack."
+      steinscore.feature.stack:
+        default: op
+        description: "Allow to use /stack command"
+      steinscore.feature.clear:
+        default: op
+        description: "Allow to use /clear command"
+      steinscore.feature.not-starve:
+        default: op
+        description: "Player hunger does not decrease"
+      steinscore.feature.fireproof:
+        default: op
+        description: "The player receives blazer blessing - fireproof"
+      steinscore.feature.waterproof:
+        default: op
+        description: "The player receives squid blessing - waterproof"
+      steinscore.feature.unfallable:
+        default: op
+        description: "The player receives chicken blessing - does not take damage from falling"
+      steinscore.feature.fairy:
+        default: op
+        description: "Allow to use /fairy command"
+      steinscore.feature.near:
+        default: op
+        description: "Allow to use /near command"
+      steinscore.feature.sleep:
+        default: op
+        description: "Allow to use /sleep command"
+      steinscore.feature.size:
+        default: op
+        description: "Allow to use /size command"
+      steinscore.feature.hack:
+        default: true
+        description: "Allow to use /hack command"
+      steinscore.feature.speed:
+        default: op
+        description: "Allow to use /speed command"
+      steinscore.feature.keep-inventory:
+        default: op
+        description: "Allow to keep player's inventory after death."
+        children:
+          steinscore.feature.keep-inventory.random:
+            default: op
+            description: "Allow to keep player's inventory after death with 50% chance"
+      steinscore.feature.kill-money:
+        default: op
+        description: "Allow to get additional money after kill"
+      steinscore.feature.vape:
+        default: true
+        description: "Allow to use /vape command"
+      steinscore.feature.skin:
+        default: op
+        description: "Allow to use /skin command"
+      steinscore.feature.noad:
+        default: op
+        description: "Hide all advertises from your screen"
+      steinscore.feature.enderchest:
+        default: op
+        description: "Allow to use /enderchest <player> command"
+        children:
+          steinscore.feature.enderchest.use:
+            default: op
+            description: "Allow to use /enderchest command"
+      steinscore.feature.ref:
+        default: true
+        description: "Allow to use /ref command"
+      steinscore.feature.enchant:
+        default: op
+        description: "Allow to use /enchant command"
+        children:
+          steinscore.feature.enchant.1:
+            default: op
+            description: "Allow to use /enchant (with the first level of enchantments)"
+          steinscore.feature.enchant.3:
+            default: op
+            description: "Allow to use /enchant (with the third level of enchantments)"
+      steinscore.feature.flame-arrow:
+        default: op
+        description: "All arrows you shoot are burning"
+      steinscore.feature.spam:
+        default: op
+        description: "Allow to message without any problems"
+      steinscore.feature.burn:
+        default: op
+        description: "Allow to use /burn command"
+      steinscore.feature.fly:
+        default: op
+        description: "Allow to use /fly <player> command"
+        children:
+          steinscore.feature.fly.use:
+            default: op
+            description: "Allow to use /fly command"
+      steinscore.feature.gamemode:
+        default: op
+        description: "Allow to use /gamemode <player> command"
+        children:
+          steinscore.feature.gamemode.use:
+            default: op
+            description: "Allow to use /gamemode command"
+      steinscore.feature.say:
+        default: op
+        description: "Allow to use /say command"
+      steinscore.feature.list:
+        default: true
+        description: "Allow to use /list command"
+      steinscore.feature.tell:
+        default: op
+        description: "Allow to see a players pm"
+        children:
+          steinscore.feature.tell.use:
+            default: true
+            description: "Allow to use /tell command"
+      steinscore.feature.rainbow:
+        default: op
+        description: "Allow to use rainbow armor"
+      steinscore.feature.colors:
+        default: op
+        description: "Allow to use colors in the chat and on signs"
+      steinscore.feature.shock:
+        default: op
+        description: "Allow to use /shock command"
+      steinscore.feature.hail:
+        default: op
+        description: "Allow to use /hail command"
+      steinscore.feature.ping:
+        default: true
+        description: "Allow to use /ping command"
+      steinscore.feature.cmd-spam:
+        default: op
+        description: "Allow to use commands without cooldown"
+        children:
+          steinscore.feature.cmd-spam.3:
+            default: true
+            description: "Allow to use commands every 3 seconds"
+          steinscore.feature.cmd-spam.2:
+            default: op
+            description: "Allow to use commands every 2 seconds"
+          steinscore.feature.cmd-spam.1:
+            default: op
+            description: "Allow to use commands every 1 second"
+      steinscore.feature.mining:
+        default: op
+        description: "All blocks what you break will send in your inventory"
+      steinscore.feature.golden-apple:
+        default: op
+        description: "Allow to eat golden apples"
+      steinscore.feature.god:
+        default: op
+        description: "Allow to use /god command"

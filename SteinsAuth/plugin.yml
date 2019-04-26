@@ -1,0 +1,15 @@
+name: "SteinsAuth"
+author: "themestl"
+version: "1.0"
+
+main: steinssquad\auth\SteinsAuth
+api: ["3.6.5", "4.0.0"]
+
+permissions:
+  steinscore.auth:
+    default: op
+    description: "Allow to login"
+    children:
+      steinscore.auth.login:
+        default: true
+        description: "Allow to use /login, /register and /changepass command"

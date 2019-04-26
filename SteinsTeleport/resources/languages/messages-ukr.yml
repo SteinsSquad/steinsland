@@ -1,0 +1,80 @@
+teleporting: "&6Телепортація..."
+
+tp-description: "Телепортуватися"
+tp-success: "Ви успішно телепортували &a{origin}&f до &6{target}&f."
+tp-success-coordinates: "Ви успішно телепортували &a{origin}&f на &7{x}&f, &7{y}&f, &7{z}&f."
+
+tpa-description: "Відправити запит на телепортацію до гравця"
+tpa-success: "ви успішно відправили заявку &6на телепортацію&f до &a{player}&f."
+tpa-request: "Гравець&a {player}&f хоче &6телепортіроваться&f до вас.\n&fВикористовуйте&7 /tpc&f, щоб &2прінять&f заявку.\n&fВикористовуйте &7/ignore {player}&f, щоб &4не отримувати&f заявок від цього гравця."
+
+tpahere-description: "Телепортувати гравця до себе"
+tpahere-success: "Ви успішно відправили заявку &a{player}&f на&6 телепортацію&f його до себе."
+tpahere-request: "Гравець&a {player}&f хоче &6телепортувати&f вас до себе.\n&fВикористовуйте &7/tpc&f, щоб &2прінять&f заявку.\n&fВикористовуйте&7 /ignore {player}&f, щоб &4не отримувати&f заявок від цього гравця."
+
+tpaccept-description: "Прийняти запит на телепортацію"
+tpaccept-no-requests: "&cУ Вас немає заявок на телепортацію"
+tpaccept-success: "Ви успішно прийняли заявку на телепортацію від&a {player}&f."
+tpaccept-accepted: "&a{player}&f прийняв вашу заявку на телепортацію."
+tpaccept-accepted-wait: "&a{player}&f прийняв вашу заявку на телепортацію. Ви переміститеся через &6{seconds}&f сек."
+tpaccept-here-success: "Ви успішно телепортувалися до&a {player}&f."
+tpaccept-here-success-wait: "Ви будете телепортовані до&a {player}&f через&6 {seconds}&f сек."
+tpaccept-here-accepted: "&a{player}&f прийняв Вашу заявку на телепортацію до себе."
+
+homes-description: "Дізнатися точки будинку"
+homes-header: "Точки будинку гравця &a{player}&f(&6{count}&f):"
+homes-line: "&7 * &e{name}&f - &8{x}&f, &8{y}&f, &8{z}&f в світі &d{level}&f."
+
+sethome-description: "Установить точку дома"
+sethome-too-many-homes: "&cВы не можете иметь больше, чем &6{count}&c домов. Удалите или измените ненужные."
+sethome-failed: "&cВы не можете установить точку дома."
+sethome-success: "Вы успешно создали точку дома &a{home}&f."
+sethome-success-updated: "Вы успешно обновили точку дома &a{home}&f."
+
+home-description: "Переместиться на точку дома"
+home-not-found: "&cТочка дома &a{home}&c не найдена."
+home-success: "Вы успешно переместились на точку дома &a{home}&f."
+home-success-wait: "Вы переместитесь на точку дома &a{home}&f через &6{seconds} &fсек."
+home-success-player: "Вы успешно переместились на точку дома &6{home}&f игрока &a{player}&f."
+
+delhome-description: "Удалить точку дома"
+delhome-success: "Вы успешно удалили точку дома &a{home}&f."
+delhome-success-player: "Вы успешно удалили точку дома &a{home}&f игрока &6{player}&f."
+
+back-description: "Переместиться на место смерти"
+back-success: "Вы успешно переместились на место вашей смерти"
+back-success-wait: "Вы переместитесь на место вашей последней смерти через &6{seconds}&f сек."
+back-success-player: "Вы переместились на место смерти &a{player}&f."
+back-failed: "&cТочки последней смерти не существует."
+
+spawn-description: "Телепортироваться на место возрождения"
+spawn-success: "Вы успешно переместились на точку возрождения."
+spawn-success-wait: "Вы переместитесь на точку возрождения через &6{seconds}&f сек."
+
+wild-description: "Телепортироваться в случайное место"
+wild-success: "Вы успешно переместились в случайное место."
+wild-success-wait: "Вы переместитесь в случайное место через &a{seconds}&f сек."
+
+randomtp-description: "Телепортироваться к случайному игроку"
+randomtp-success: "Вы успешно телепортировались к &a{player}&f."
+randomtp-success-wait: "Вы телепортируетесь к &a{player}&f через &a{seconds}&f сек."
+
+top-description: "Выбраться из шахты"
+top-success: "Вы успешно переместились на самый высокий блок."
+top-success-wait: "Вы переместитесь на самый высокий блок через &a{seconds}&f сек."
+top-failed: "&cВы и так на самом высоком блоке."
+
+setwarp-description: "Создать точку быстрого перемещения по серверу"
+setwarp-success-set: "Вы успешно создали точку быстрого перемещения по серверу &a{warp}&f."
+setwarp-success-update: "Вы успешно обновили точку быстрого перемещения по серверу &a{warp}&f."
+setwarp-too-many-warps: "&cВы не можете иметь больше, чем &6{warps}&c точек перемещения."
+
+delwarp-description: "Удалить точку быстрого перемещения по серверу"
+delwarp-success: "Вы успешно удалили точку быстрого перемещения &a{warp}&f."
+
+warp-description: "Телепортироваться на точку быстрого перемещения"
+warp-list-header: "Список точек быстрого перемещения - &6{count}&f:"
+warp-list-line: "&7 * &c{warp}&f. Владелец &a{owner}&f."
+warp-success: "Вы успешно переместились на точку &a{warp}&f."
+warp-success-wait: "Вы переместитесь на точку &a{warp}&f через &6{seconds}&f сек."
+warp-failed: "&cТочка перемещения не найдена"

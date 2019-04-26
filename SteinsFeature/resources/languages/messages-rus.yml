@@ -1,0 +1,250 @@
+world-border: "Вы достигли границы мира и дальше идти не можете &8(&7/spawn&8, если вы застряли&8)&f."
+
+automine-regen: "Автошахта была обновлена &8(&7/mine&8)&f."
+
+attack-failed: "&cВы не можете аттаковать игроков, находясь в режиме полета, творчества или бессмертия."
+
+hologram-mine: "&a{player}&f, это &eАВТОШАХТА&f.\nВы сможете сюда попасть в любой момент, используя &7/mine&f."
+hologram-commands: "Комманды сервера:\n{text}"
+hologram-commands-1: "Раздел: &cОсновное&r:\n&a/commands &f- список доступных комманд.\n&a/hack&f - взломать админку.\n&a/ref <code>&f - использовать реферальный код.\n&a/vape &f- попарить вейп.\n&a/marry &f- свадьбы.\n&a/tell <player> <message> &f- отправить игроку личное сообщение.\n&a/kit start &f- получить начальный набор.\n&a/list &f- список игроков онлайн.\n\n&3Больше возможностей можно приобрести на &bSteinsLand.ru&3!"
+hologram-commands-2: "Раздел: &cЭкономика&r:\n&a/balance &f- узнать сколько у вас денег.\n&a/pay <player> <amount> &f- передать игроку деньги.\n&a/bank <deposit:balance:withdraw> &f- управление банковским счетом.\n&a/lottery &f- участвовать в лотерее.\n&a/obh&f - заказать голову игрока.\n&a/job <miner:woodcutter> &f- устроиться на работу.\n\n&3Больше возможностей можно приобрести на &bSteinsLand.ru&3!"
+hologram-commands-3: "Раздел: &cРегионы&r:\n&a/claim <region> &f- создать регион.\n&a/unclaim <region> &f- удалить регион.\n&a/pos1 &fи &a/pos2 &f- установить крайние точки.\n&a/leave <region>&f - покинуть регион.\n&a/addmember <region> <player> &f- добавить участника в регион.\n&a/addadmin <region> <player> &f- добавить модератора в регион.\n&a/delmember <player> &f- исключить участника из региона.\n&a/flag <region> <flag> [value]&f - управление флагами региона.\n&a/info [region] &f- узнать информацию о регионе.\n\n&3Больше возможностей можно приобрести на &bSteinsLand.ru&3!"
+hologram-commands-4: "Раздел: &cТелепортация&r:\n&a/sethome <home> &f- установить точку дома.\n&a/home <home> &f- телепортироваться в точку дома.\n&a/delhome <home> &f- удалить точку дома.\n&a/tpa <player>&f - запросить телепортацию к игроку.\n&a/tpaccept &f- принять запрос на телепортацию.\n&a/warp [warp]&f - быстрая телепортация по серверу.\n&a/spawn &f- телепортация на спавн.\n\n&3Больше возможностей можно приобрести на &bSteinsLand.ru&3!"
+hologram-commands-5: "Раздел: &cКланы&r:\n&a/ccreate <clan> &f- создать клан. &7(&615000 золотых&7)&f.\n&a/cremove &f- удалить клан.\n&a/cinvite <player>&f - пригласить игрока в клан.\n&a/cleave &f- покинуть клан.\n&a/cdeposit <amount>&f - вложить в клан.\n&a/ckick <player> &f- исключиить игрока.\n&a/cpromote &f- повысить игрока до офицера.\n&a/cdemote &f- понизить игрока до участника.\n&a/caccept &f- принять заяву на вступление в клан.\n&a/csethome &f- установить клановый дом &7(&65000 клановых денег&7)&f.\n&a/chome &f- телепортироваться в клановый дом.\n\n&3Больше возможностей можно приобрести на &bSteinsLand.ru&3!"
+
+citem-soon: "Внимание, через &615 секунд&f все предметы на земле будут удалены."
+citem-success: "Было удалено &6{count}&f предметов."
+
+quiz-new: "Кто первым решит &7{first}&d {action} &7{second}&f получит &61000 золотых&f."
+quiz-win: "&a{player}&f первым решил пример и получает &61000 золотых&f."
+
+commands-description: "Список комманд сервера"
+commands-header: "Комманды сервера. Страница &a{page}&f/&a{count}&f:"
+commands-line: "&a/{command} {usage} &e- &d{description}&f."
+commands-line-header: "&a/{command} &e- &d{description}&f:"
+commands-line-sub: " &7* &fСуб-комманда: &a/{command} {usage}&f."
+
+scream-description: "Испугать игрока"
+scream-success: "Вы успешно испугали игрока &a{player}&f."
+
+expfly-description: "Включить временный полет на опыте"
+expfly-failed: "&cВы не можете включить полет на опыте, так как вы можете летать. &8(&7/fly&8)&c."
+expfly-success: "Вы успешно включили полет на опыте."
+
+give-description: "Выдать предмет игроку"
+give-failed: "&cПредмет не найден."
+give-success: "Вы успешно выдали &d{item}&f [&6{count}&f шт.] игроку &a{player}&f."
+
+addholo-description: "Создать голограмму"
+addholo-failed: "&cУ Вас слишком много голограмм. Удалите ненужные."
+addholo-success: "Вы успешно создали голограмму."
+
+delholo-description: "Удалить близжающую голограмму."
+delholo-failed: "&cРядом с вами нет голограмм."
+delholo-success: "Вы успешно удалили голограмму."
+
+holos-description: "Список ваших голограмм."
+holos-failed: "&cУ Вас нет голограмм."
+holos-success: "Ваши глограммы: &a{pos}&f."
+
+kit-description: "Получить набор"
+kit-header: "Доступные вам набор &8(&6{count}&7 шт&8)&f:"
+kit-line-available: "&7 * &a{kit}&f"
+kit-line-cooldown: "&7 * &c{kit}&f - {time}."
+kit-success: "Вы успешно получили набор &a{kit}&f."
+kit-success-drop: "Вы успешно полчили набор &a{kit} &8(&7Некоторые вещи не поместились в вашем инвентаре&8)&f."
+kit-sign: "&d&l&oИз набора &a{kit}&d игрока &c{player}&d."
+
+lookat-description: "Направить свой взгляд на позицию"
+lookat-success-player: "Вы успешно направили свой взгляд на игрока &a{player}&8 (&6{x}&7, &6{y}&7, &6{z}&8)&f."
+lookat-success-position: "Вы успешно направили свой взгляд на &6{x}&f,&6 {y}&f,&6 {z}&f."
+
+milk-description: "Удалить с себя все эффекты"
+milk-success: "Вы успешно сняли с себя все эффекты &8(&6{count}&7 шт.&8)&f"
+milk-failed: "&cУ Вас нет эффектов."
+
+day-description: "Установить день в мире"
+day-success: "Игрок &a{player}&f установил день в мире."
+night-description: "Установить ночь в мире"
+night-success: "Игрок &a{player}&f установил ночь в мире."
+
+marry-description: "Управление свадьбами"
+marry-not-married: "&cВы не женаты/замужем."
+marry-so-far: "&cВы находитесь слишком далеко от своей/своего супруги/супруга"
+marry-invite-failed: "&cВы не можете пожениться/выйти замуж, так как Вы или игрок уже женат/замужем."
+marry-invite-success: "Вы успешно сделали предложение руки и сердца игроку &a{player}&f."
+marry-invite-success-player: "&a{player}&f предлагает Вам пожениться/выйти замуж.\nИспользуйте &7/marry accept&f, чтобы согласиться."
+marry-accept-no-request: "&cУ Вас нет заявок на женидьбу/замужество."
+marry-accept-failed: "&cВы или игрок успели пожениться/выйти замуж за это время."
+marry-accept-success: "Вы успешно поженились на/вышли замуж за &a{player}&f"
+marry-accept-success-player: "&a{player}&f принял ваше предложение. Теперь вы женаты."
+marry-divorce-success: "Вы успешно развелись."
+marry-kiss-success: "Вы успешно поцеловали &a{player}&f."
+marry-kiss-success-player: "&a{player}&f поцеловал вас."
+marry-sex-success: "Вы начали заниматься сексом."
+marry-sex-finished: "Вы закончили заниматься сексом."
+
+ignore-description: "Игнорировать заявки от игрока"
+ignore-success-on: "Вы успешно начали игнорировать заявки от &a{player}&f."
+ignore-success-off: "Вы успешно перестали игнорировать заявки от &a{player}&f."
+
+clear-description: "Очистить инвентарь от мусора"
+clear-success: "Вы успешно очистили свой инвентарь."
+clear-failed: "&cВаш инвентарь и так пуст."
+
+feed-description: "Утолить голод"
+feed-success: "Вы успешно утолили ваш голод."
+feed-you-satisfied: "&a{player}&f утолил ваш голод."
+feed-satisfied-success: "Вы успешно утолили голод &a{player}&f."
+feed-cooldown: "&cПодождите ещё &f{time}&c, прежде чем есть."
+
+heal-description: "Восстановить здоровье"
+heal-success: "Вы успешно восстановили здоровье"
+heal-you-healed: "Ваше здоровье было восстановлено &a{player}&f."
+heal-healed-success: "Вы успешно восстановили здоровье &a{player}&f."
+heal-cooldown: "&cПодождите ещё &f{time}&c, прежде чем лечиться."
+
+sit-description: "Сесть на игрока"
+sit-success: "Вы успешно сели на игрока &a{player}&f."
+
+repair-description: "Починить предмет в руке"
+repair-failed: "&cВы не можете починить этот предмет."
+repair-success: "Вы успешно починили предмет в руке."
+
+cook-description: "Приготовить предмет в руке"
+cook-failed: "&cЭтот предмет приготовить нельзя."
+cook-success: "Вы успешно приготовили предмет в руке."
+
+extinguish-description: "Потушить себя"
+extinguish-failed: "&cВы не горите."
+extinguish-success: "Вы успешно потушились."
+
+dupe-description: "Увеличить количество предмета в руке"
+dupe-failed: "&cВы не можете дюпнуть это."
+dupe-in-cooldown: "Вы не можете пока дюпать, подождите:&7 {time}&f."
+dupe-success: "Вы успешно дюпнули предмет в руке."
+
+fairy-description: "Устроить раздачу"
+fairy-teleport: "Вы успешно телепорировались к &a{player}&f."
+fairy-award-success: "Вы успешно выдали игроку &a{player}&f награду: &6{prize}&f."
+fairy-award-got: "Вы получили награду от &a{player}&f: &6{prize}&f."
+fairy-prize-dirt: "столько земли, сколько смог унести"
+fairy-prize-money: "от 1000 до 3000 золотых"
+fairy-prize-diamonds: "алмазы"
+fairy-prize-item: "случайный предмет"
+fairy-prize-promotion: "&eVIP&6 на неделю"
+fairy-promotion-failed: "Вы не можете получить этот приз, поэтому вы получаете &610000&f золотых."
+
+near-description: "Узнать игроков по близости"
+near-header: "Рядом &6{count}&f игроков:"
+near-line: "&7 * &a{player}&f на расстоянии &8{distance}&f блоков."
+near-failed: "&cРядом с вами нет игроков."
+
+sleep-description: "Лечь спать"
+sleep-success: "Вы успешно легли спать."
+
+size-description: "Изменить размер"
+size-success-dwarf: "Вы успешно стали гномом."
+size-success-normal: "Вы успешно стали обычного размера."
+size-success-giant: "Вы успешно стали великаном."
+size-failed: "Вы не можете изменить размер, так как вы уже этого размера."
+
+hack-description: "Взломать админку"
+hack-later: "&cВы уже пытались взломать админку, попробуйте после перезагрузки."
+hack-success: "Поздравляем, Вы &aвзломали&f админку!"
+hack-failed: "К сожалению, вы не смогли взломать админку вам выпало &c{rand}&f, а надо &a{need}&f.\n&fВы так-же можете попробывать взломать ее после перезагрузки или купить на нашем сайте!"
+
+speed-description: "Изменить скорость"
+speed-success: "Вы успешно установили скорость на &a{speed}&f."
+
+vape-description: "Попарить"
+vape-success: "Вы успешно вейпанули &a{machine}&f."
+
+skin-description: "Получить скин другого игрока"
+skin-success: "Вы успешно украли скин игрока &a{player}&f."
+skin-success-restore: "Вы восстановили свой скин."
+
+enderchest-description: "Открыть эндер сундук"
+enderchest-success: "Вы успешно открыли эндер-сундук."
+enderchest-success-player: "Вы успешно открыли эндер-сундук игрока &a{player}&f."
+
+ref-description: "Использовать реферальный код"
+ref-failed: "&cВы уже использовали реферальный код."
+ref-not-found: "&cРеферальный код не найден."
+ref-success: "Вы успешно использовали реферальный код &a{ref}&f."
+
+enchant-description: "Зачарует предмет в вашей руке"
+enchant-failed: "&cПредмет в вашей руке нельзя зачаровать."
+enchant-success: "Вы успешно зачаровали предмет в руке."
+
+keep-inventory-success: "Ваши вещи были сохраненны."
+keep-inventory-failed: "К сожалению, вам не повезло - все ваши вещи выпали."
+
+burn-description: "Поджечь игрока"
+burn-success: "Вы успешно подожгли игрока &a{player}&f на &6{seconds}&f сек."
+burn-you-burn: "Вы были подженны игроком &a{player}&f."
+
+fly-description: "Включить или выключить режим полета"
+fly-success-on: "Вы успешно включили режим полета."
+fly-success-off: "Вы успешно отключили режим полета."
+fly-success-player-on: "Вы успешно включили режим полета для &a{player}&f."
+fly-success-player-off: "Вы успешно отключили режим полета для &a{player}&f."
+fly-player-on: "Игрок &a{player}&f включил Вам режим полета."
+fly-player-off: "Игрок &a{player}&f отключил Вам режим полета."
+
+gamemode-description: "Включить или выключить творческий режим"
+gamemode-success-creative: "Творческий режим успешно включен."
+gamemode-success-survival: "Режим выживания успешно включен."
+gamemode-change-creative: "Вы успешно изменили игроку &a{player}&f режим на творческий."
+gamemode-changed-creative: "Ваш игровой режим был изменен на творческий игроком &a{player}&f."
+gamemode-change-survival: "Вы успешно изменили игроку &a{player}&f режим на выживание."
+gamemode-changed-survival: "Ваш игровой режим был изменен на выживание игроком &a{player}&f."
+
+say-description: "Отправить сообщение на весь сервер"
+say-success: "&e[&3{player}&e] &bＳ&cＬ&e: &d{message}"
+
+list-description: "Узнать список онлайн игроков"
+list-header: "Онлайн игроков - &6{count}&f:"
+list-group-order: "&7 * &c{group}&f(&6{count} шт&f): &a{players}&f."
+
+tell-description: "Написать личное сообщение игроку"
+tell-success: "&b(&eВи &7≫ &e{player}&b) &f{message}"
+tell-got: "&b(&e{player} &7≫ &eВам&b) &f{message}"
+tell-view: "&b(&e{player} &7≫ &e{target}&b) &f{message}"
+
+shock-description: "Ударить игрока молнией"
+shock-success: "Вы успешно ударили молнией игрока &a{player}&f."
+
+hail-description: "Отправить град стрел на игрока"
+hail-success: "Вы успешно отправили град стрел на игрока &a{player}&f."
+
+stack-description: "Отсортирует и состакает ваш инвентарь"
+stack-success: "Вы успешно отсортировали ваш инвентарь"
+
+rainbow-description: "Надеть радужную броню"
+rainbow-success: "Вы успешно надели на себя радужную броню."
+
+ping-description: "Узнать скорость ответа сервера на ваш запрос"
+ping-success: "Скорость ответа: &f{ping} &7(чем меньше - тем лучше)&f."
+
+god-description: "Включить или отключить режим бессмертия"
+god-success-on: "Вы успешно включили режим бессмертия."
+god-success-off: "Вы успешно отключили режим бессмертия."
+
+achievements-buildWorkBench: "Рабочее место"
+achievements-buildPickaxe: "Время шахты"
+achievements-buildFurnace: "Печь, моя печь"
+achievements-buildBetterPickaxe: "Обновка"
+achievements-diamond: "АЛМАЗЫ"
+achievements-buildHoe: "Время огорода"
+achievements-harvest: "Урожай"
+achievements-makeBread: "Хлеб"
+achievements-buildSword: "К охоте готов"
+achievements-firstKill: "Первое убийство"
+achievements-streak: "Буйство"
+
+achievements-builder-branch-complete: "Ветка достижений &aСТРОИТЕЛЬ&f - завершена. Сломанные блоки будут попадать сразу в инвентарь."
+achievements-farmer-branch-complete: "Ветка достижений &aФЕРМЕР&f - завершена. Потребность в еде убрана."
+achievements-hunter-branch-complete: "Ветка достижений &aОХОТНИК&f - завершена. Появились дополнительные жизни."
+
+achievements-earned: "Вы получили достижение &a{achievement}&f!"

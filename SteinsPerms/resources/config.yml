@@ -1,0 +1,206 @@
+groups:
+  player:
+    prefix: "&1Ｐｌａｙｅｒ"
+    suffix: "&1"
+    priority: 0
+    isDefault: true
+    region-count: 1
+    region-size: 100
+    default-money: 1000
+    chat: "&7({prefix}&7) &f{username} {suffix}≫ &7{message}"
+    nametag: "{prefix} &f{username} \n{suffix}ＳｔｅｉｎｓＬａｎｄ.ｒｕ"
+    permissions: []
+  fly:
+    prefix: "&bＦｌｙ"
+    suffix: "&b"
+    priority: 1
+    inheritance: player
+    region-count: 2
+    region-size: 225
+    default-money: 10000
+    permissions:
+      - steinscore.admin.kill.use
+      - steinscore.feature.fly.use
+      - steinscore.feature.kit-fly
+      - steinscore.feature.cook
+      - steinscore.feature.stack
+      - steinscore.feature.feed.use.cd
+      - steinscore.feature.extinguish
+      - steinscore.teleport.homes.3
+      - steinscore.feature.kill-money
+      - steinscore.feature.cmd-spam.2
+      - steinscore.teleport.cooldown.3
+      - steinscore.feature.noad
+      - steinscore.region.flag-pvp
+      - steinscore.region.flag-unfallable
+  vip:
+    prefix: "&8ＶＩＰ"
+    suffix: "&8"
+    priority: 2
+    inheritance: fly
+    region-count: 3
+    region-size: 225
+    default-money: 15000
+    permissions:
+      - steinscore.teleport.top
+      - steinscore.teleport.wild
+      - steinscore.feature.feed.use
+      - steinscore.feature.kit-vip
+      - steinscore.teleport.back.use
+      - steinscore.feature.size
+      - steinscore.feature.sleep
+      - steinscore.feature.heal.use.cd
+      - steinscore.feature.enchant.1
+      - steinscore.teleport.homes.5
+      - steinscore.feature.fireproof
+      - steinscore.feature.golden-apple
+      - steinscore.feature.keep-inventory.random
+      - steinscore.feature.cmd-spam.1
+      - steinscore.feature.notify
+      - steinscore.teleport.cooldown.1
+  supra:
+    prefix: "&3Ｓｕｐｒａ"
+    suffix: "&3"
+    priority: 3
+    inheritance: vip
+    region-count: 3
+    region-size: 400
+    default-money: 20000
+    permissions:
+      - steinscore.teleport.tpahere
+      - steinscore.teleport.randomtp
+      - steinscore.feature.milk
+      - steinscore.feature.enderchest.use
+      - steinscore.feature.kit-supra
+      - steinscore.feature.feed
+      - steinscore.feature.heal.use
+      - steinscore.feature.clear
+      - steinscore.feature.repair
+      - steinscore.feature.dupe.cooldown
+      - steinscore.feature.god
+      - steinscore.feature.near
+      - steinscore.admin.warn
+      - steinscore.feature.enchant.3
+      - steinscore.teleport.homes
+      - steinscore.feature.keep-inventory
+      - steinscore.feature.mining
+      - steinscore.feature.flame-arrow
+      - steinscore.feature.unfallable
+      - steinscore.feature.waterproof
+      - steinscore.teleport.cooldown
+  supreme:
+    prefix: "&6Ｓｕｐｒｅｍｅ"
+    suffix: "&6"
+    priority: 4
+    inheritance: supra
+    region-count: 4
+    region-size: 400
+    default-money: 25000
+    permissions:
+      - steinscore.feature.heal
+      - steinscore.feature.rainbow
+      - steinscore.feature.enchant
+      - steinscore.feature.skin
+      - steinscore.feature.speed
+      - steinscore.feature.dupe
+      - steinscore.feature.burn
+      - steinscore.feature.gamemode.use
+      - steinscore.feature.kit
+      - steinscore.feature.colors
+      - steinscore.feature.cmd-spam
+      - steinscore.feature.border
+      - steinscore.feature.not-starve
+      - steinscore.region.flag-strave
+      - steinscore.region.flag-chat
+      - steinscore.region.flag-unburned
+  ultra:
+    prefix: "&5Ｕｌｔｒａ"
+    suffix: "&5"
+    priority: 5
+    inheritance: supreme
+    region-count: 4
+    region-size: 625
+    default-money: 30000
+    permissions:
+      - steinscore.permission.prefix
+      - steinscore.teleport.back
+      - steinscore.admin.vanish
+      - steinscore.teleport.setwarp.use
+      - steinscore.teleport.warps.1
+      - steinscore.adminn.kick.use
+      - steinscore.feature.holograms.use
+      - steinscore.feature.holograms.1
+      - steinscore.feature.shock
+      - steinscore.admin.jail
+      - steinscore.feature.spam
+      - steinscore.feature.sit
+      - steinscore.feature.time
+      - steinscore.region.flag-greeting
+      - steinscore.region.flag-breathe
+      - steinscore.region.flag-keep-inventory
+  helper:
+    prefix: "&2Ｈｅｌｐｅｒ"
+    suffix: "&2"
+    priority: 6
+    inheritance: ultra
+    permissions:
+      - steinscore.economy.balance
+      - steinscore.admin.mute
+      - steinscore.admin.report
+      - steinscore.teleport.tp.use
+      - steinscore.feature.fly
+      - steinscore.teleport.setwarp
+      - steinscore.teleport.warps.3
+      - steinscore.feature.holograms.3
+      - steinscore.feature.enderchest
+      - steinscore.admin.ban.use
+      - steinscore.admin.kick.use
+      - steinscore.economy.setmoney.use
+  youtube:
+    prefix: "&cＹｏｕ&fＴｕｂｅ&7"
+    suffix: "&c"
+    priority: 7
+    inheritance: helper
+    permissions:
+      - steinscore.feature.holograms.5
+      - steinscore.feature.fairy
+      - steinscore.admin.nick
+      - steinscore.feature.attack
+      - steinscore.feature.scream
+  admin:
+    prefix: "&4Ａｄｍｉｎ"
+    suffix: "&4"
+    priority: 8
+    inheritance: youtube
+    permissions:
+      - steinscore.admin.freeze
+      - steinscore.feature.say
+      - steinscore.teleport.warps.5
+      - steinscore.admin.ban
+      - steinscore.teleport.tp
+      - steinscore.feature.holograms
+      - steinscore.feature.hail
+      - steinscore.economy.setmoney
+      - steinscore.feature.gamemode
+      - steinscore.feature.give
+  sponsor:
+    prefix: "&dＳｐｏｎｓｏｒ"
+    suffix: "&d"
+    priority: 9
+    inheritance: admin
+    region-count: 10
+    region-size: 1000
+  staff:
+    prefix: "&9Ｓｔａｆｆ"
+    suffix: "&9"
+    priority: 10
+    inheritance: sponsor
+    region-count: 1000
+    region-size: 100000000
+  developer:
+    prefix: "&cＤｅｖｅｌｏｐｅｒ"
+    suffix: "&c"
+    priority: 11
+    inheritance: staff
+    permissions:
+      - "*"

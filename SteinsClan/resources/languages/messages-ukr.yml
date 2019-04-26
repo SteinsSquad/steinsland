@@ -1,0 +1,46 @@
+clan-not-found: "&cКлан не найден."
+clan-level-need: "&cДля этого нужен &6{level}&c уровень клана."
+
+ccreate-description: "Создать клан"
+ccreate-failed: "&cУ Вас уже есть клан."
+ccreate-exists: "&cКлан с таким названием существует."
+ccreate-success: "Вы успешно создали клан &a{clan}&f."
+
+cremove-description: "Удалить клан"
+cremove-success: "Вы успешно удалили клан &a{clan}&f."
+
+cinvite-description: "Пригласить игрока в клан"
+cinvite-failed: "&cУ игрока уже есть клан."
+cinvite-success: "Вы успешно пригласили игрока &a{player}&f в клан &c{clan}&f."
+cinvite-player: "Игрок &a{player}&f пригласил вас в клан &c{clan}&f.\nИспользуйте &7/caccept&f, чтобы согласиться."
+
+caccept-description: "Принять заявку на вступление в клан"
+caccept-failed: "&cУ вас нет заявок на приглашние в клан."
+caccept-success: "Вы успешно стали участником клана &a{clan}&f."
+
+cleave-description: "Покинуть клан"
+cleave-failed: "&cВы не можете покинуть свой клан."
+cleave-success: "Вы успешно покинули клан."
+
+csethome-description: "Установить точку дома клану"
+csethome-success: "Вы успешно установили точку дома клану &a{clan}&f."
+
+chome-description: "Переместиться в точку дома клана"
+chome-failed: "&cУ клана нет точки дома."
+chome-success: "Вы перенеслись на точку дома клана &a{clan}&f."
+chome-success-wait: "Вы перенесётесь на точку дома клана &a{clan}&f через &6{seconds}&f сек."
+
+ckick-description: "Исключить игрока из клана"
+ckick-failed: "&cИгрок не состоит в вашем клане."
+ckick-success: "Вы успешно исключили игрока &a{player}&f из клана &c{clan}&f."
+
+cdeposit-description: "Вложить деньги в клан"
+cdeposit-success: "Вы успешно вложили &6{amount} золотых&f в клан."
+
+cpromote-description: "Повысить игрока до оффицера"
+cpromote-failed: "&cИгрок не состоит в вашем клане."
+cpromote-success: "Вы успешно повысили игрока &a{player}&f до офицера."
+
+cdemote-description: "Понизить игрока до участника"
+cdemote-failed: "&cИгрок не состоит в вашем клане."
+cdemote-success: "Вы успешно понизили игрока &a{player}&f до участника."
